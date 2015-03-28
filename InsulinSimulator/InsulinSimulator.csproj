@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB60E5D1-9BD1-4F25-8309-26702E0934CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InsulinSimulator</RootNamespace>
+    <AssemblyName>InsulinSimulator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\BloodSugarLevel.cs" />
+    <Compile Include="Classes\Dose.cs" />
+    <Compile Include="Classes\Insulin.cs" />
+    <Compile Include="Classes\Pump.cs" />
+    <Compile Include="Classes\Pump_Status.cs" />
+    <Compile Include="Classes\Reading.cs" />
+    <Compile Include="Classes\Sensor.cs" />
+    <Compile Include="Classes\Sensor_Status.cs" />
+    <Compile Include="Classes\Warning.cs" />
+    <Compile Include="frm_Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Controller.Designer.cs">
+      <DependentUpon>frm_Controller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_Controller.resx">
+      <DependentUpon>frm_Controller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Battery_Full.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Apple-64-disabled.png" />
+    <Content Include="Images\Apple-64.png" />
+    <Content Include="Images\battery_high.png" />
+    <Content Include="Images\battery_low.png" />
+    <Content Include="Images\Blood-Sugar-disabled.png" />
+    <Content Include="Images\Blood-Sugar-Falling.png" />
+    <Content Include="Images\Blood-Sugar-Rising.png" />
+    <Content Include="Images\Blood-Sugar.png" />
+    <Content Include="Images\CallDoctor-disabled.png" />
+    <Content Include="Images\CallDoctor.png" />
+    <Content Include="Images\Diseased-disabled.png" />
+    <Content Include="Images\Diseased.png" />
+    <Content Include="Images\Insulin_Injection_five.png" />
+    <Content Include="Images\Insulin_Injection_four.png" />
+    <Content Include="Images\Insulin_Injection_None.png" />
+    <Content Include="Images\Insulin_Injection_one.png" />
+    <Content Include="Images\Insulin_Injection_three.png" />
+    <Content Include="Images\Insulin_Injection_two.png" />
+    <Content Include="Images\pump_failure.png" />
+    <Content Include="Images\pump_ok.png" />
+    <Content Include="Images\pump_ok_v2.png" />
+    <Content Include="Images\Repository0of3.png" />
+    <Content Include="Images\Repository1of3.png" />
+    <Content Include="Images\Repository2of3.png" />
+    <Content Include="Images\Repository3of3.png" />
+    <Content Include="Images\Sensor_Failed.png" />
+    <Content Include="Images\Sensor_Workin.png" />
+    <Content Include="Images\warning-icon-disabled.png" />
+    <Content Include="Images\warning-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

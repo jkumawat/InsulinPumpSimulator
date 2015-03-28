@@ -1,0 +1,9 @@
+C:\Users\Jeet\Documents\Visual Studio 2010\Projects\InsulinSimulator\InsulinSimulator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jeet\Documents\Visual Studio 2010\Projects\InsulinSimulator\InsulinSimulator\obj\x86\Debug\InsulinSimulator.frmMainSimulator.resources
+C:\Users\Jeet\Documents\Visual Studio 2010\Projects\InsulinSimulator\InsulinSimulator\obj\x86\Debug\InsulinSimulator.Properties.Resources.resources
+C:\Users\Jeet\Documents\Visual Studio 2010\Projects\InsulinSimulator\InsulinSimulator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jeet\Documents\Visual Studio 2010\Projects\InsulinSimulator\InsulinSimulator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jeet\Documents\Visual Studio 2010\Projects\InsulinSimulator\InsulinSimulator\bin\Debug\InsulinSimulator.exe
+C:\Users\Jeet\Documents\Visual Studio 2010\Projects\InsulinSimulator\InsulinSimulator\bin\Debug\InsulinSimulator.pdb
+C:\Users\Jeet\Documents\Visual Studio 2010\Projects\InsulinSimulator\InsulinSimulator\obj\x86\Debug\InsulinSimulator.exe
+C:\Users\Jeet\Documents\Visual Studio 2010\Projects\InsulinSimulator\InsulinSimulator\obj\x86\Debug\InsulinSimulator.pdb

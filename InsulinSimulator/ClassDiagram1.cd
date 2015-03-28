@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InsulinSimulator.Classes.Insulin">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABAoAAAACAAAAAACAAAgAiAAAAAAEAAAABAA=</HashCode>
+      <FileName>Classes\Insulin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsulinSimulator.Classes.Pump">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAABAEgAAAAAAEAABAAAAAUAAAARAAAAEAAA=</HashCode>
+      <FileName>Classes\Pump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsulinSimulator.Classes.Reading">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAACAAAAAgAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Reading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsulinSimulator.Classes.Sensor">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAEAEQAABBEAAMAAAACAAAAAAAAEAAAgQAAAAAQBA=</HashCode>
+      <FileName>Classes\Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsulinSimulator.frmMainSimulator" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Ha1xSAgqaSQBCRjcAKyATCRCAgQ2gOYsAA0EAAAJxI0=</HashCode>
+      <FileName>frm_Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsulinSimulator.Program" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsulinSimulator.Properties.Resources" Collapsed="true">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAkAEApJoSACAAAEAFkRAAAUAAAQAAAjCEAAgAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsulinSimulator.Properties.Settings" Collapsed="true">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="InsulinSimulator.Classes.BloodSugarLevel">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAABAAAAAAAAAAABAAAAAAAAAAAAgAAAAAQAAAAAA=</HashCode>
+      <FileName>Classes\BloodSugarLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InsulinSimulator.Classes.Dose">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAACACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Dose.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InsulinSimulator.Classes.Pump_Status">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAAABAAAAAAAAAAAAAEAAEAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Classes\Pump_Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InsulinSimulator.Classes.Sensor_Status">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Classes\Sensor_Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InsulinSimulator.Classes.Warning">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBEAAAAAAAABAAAAAAEAAAAAADAQAAAAAABAACAAEA=</HashCode>
+      <FileName>Classes\Warning.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
